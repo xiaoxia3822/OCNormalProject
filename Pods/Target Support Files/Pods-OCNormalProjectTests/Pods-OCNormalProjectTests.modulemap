@@ -1,0 +1,6 @@
+framework module Pods_OCNormalProjectTests {
+  umbrella header "Pods-OCNormalProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
