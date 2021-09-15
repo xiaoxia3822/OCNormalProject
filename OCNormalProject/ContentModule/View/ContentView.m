@@ -45,7 +45,7 @@
 
 -(void)reloadView:(ContentViewModel *)viewModel {
     self.contentVM = viewModel;
-    self.layout.itemCount = 100;
+    self.layout.itemCount = self.contentVM.dataModels.count;
     [self.collectionView reloadData];
 }
 

@@ -61,6 +61,7 @@
 		0765449826F2096600E1EF7D /* BlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449726F2096600E1EF7D /* BlockVC.m */; };
 		0765449B26F2097A00E1EF7D /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449A26F2097A00E1EF7D /* RunTimeVC.m */; };
 		0765449E26F2098A00E1EF7D /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449D26F2098A00E1EF7D /* RunLoopVC.m */; };
+		076544A126F2290400E1EF7D /* BaseTabar.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544A026F2290400E1EF7D /* BaseTabar.m */; };
 		07AF367126C8C604009DB558 /* OCNormalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367026C8C604009DB558 /* OCNormalProjectTests.m */; };
 		07AF367C26C8C604009DB558 /* OCNormalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367B26C8C604009DB558 /* OCNormalProjectUITests.m */; };
 		07AF368D26C8EA4B009DB558 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF368C26C8EA4B009DB558 /* HomeVC.m */; };
@@ -207,6 +208,8 @@
 		0765449A26F2097A00E1EF7D /* RunTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeVC.m; sourceTree = "<group>"; };
 		0765449C26F2098A00E1EF7D /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
 		0765449D26F2098A00E1EF7D /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
+		0765449F26F2290400E1EF7D /* BaseTabar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabar.h; sourceTree = "<group>"; };
+		076544A026F2290400E1EF7D /* BaseTabar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabar.m; sourceTree = "<group>"; };
 		07AF365126C8C602009DB558 /* OCNormalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNormalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF366C26C8C604009DB558 /* OCNormalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNormalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF367026C8C604009DB558 /* OCNormalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNormalProjectTests.m; sourceTree = "<group>"; };
@@ -886,6 +889,8 @@
 				0765446F26F1ECC800E1EF7D /* BaseView.m */,
 				0765447C26F1EF2B00E1EF7D /* BaseTabBarVC.h */,
 				0765447D26F1EF2B00E1EF7D /* BaseTabBarVC.m */,
+				0765449F26F2290400E1EF7D /* BaseTabar.h */,
+				076544A026F2290400E1EF7D /* BaseTabar.m */,
 			);
 			path = AppModule;
 			sourceTree = "<group>";
@@ -1206,6 +1211,7 @@
 				0765445526F1CED900E1EF7D /* Anagram.m in Sources */,
 				0765446D26F1ECB500E1EF7D /* BaseViewController.m in Sources */,
 				07C1844326F040CE00110EAF /* ContentPresenter.m in Sources */,
+				076544A126F2290400E1EF7D /* BaseTabar.m in Sources */,
 				07AF36AC26CA990C009DB558 /* Times.m in Sources */,
 				0765446926F1EA5300E1EF7D /* ContentFlowLayout.m in Sources */,
 				0765448126F206B800E1EF7D /* MultithreadingVC.m in Sources */,

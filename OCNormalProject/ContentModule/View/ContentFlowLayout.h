@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ContentFlowLayout : UICollectionViewFlowLayout
 
-@property(nonatomic,assign) int itemCount;
+@property(nonatomic, assign) NSInteger itemCount;
 
 @end
 
