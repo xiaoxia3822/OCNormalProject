@@ -23,8 +23,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _age = 0;
-    
     _layoutView = [[LayoutView alloc]init];
     _layoutView.backgroundColor = [UIColor blueColor];
     _layoutView.frame = CGRectMake(100, 100, 100, 100);
