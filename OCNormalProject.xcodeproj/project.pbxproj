@@ -62,6 +62,7 @@
 		0765449B26F2097A00E1EF7D /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449A26F2097A00E1EF7D /* RunTimeVC.m */; };
 		0765449E26F2098A00E1EF7D /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449D26F2098A00E1EF7D /* RunLoopVC.m */; };
 		076544A126F2290400E1EF7D /* BaseTabar.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544A026F2290400E1EF7D /* BaseTabar.m */; };
+		076544A526F2314900E1EF7D /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544A426F2314900E1EF7D /* Router.m */; };
 		07AF367126C8C604009DB558 /* OCNormalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367026C8C604009DB558 /* OCNormalProjectTests.m */; };
 		07AF367C26C8C604009DB558 /* OCNormalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367B26C8C604009DB558 /* OCNormalProjectUITests.m */; };
 		07AF368D26C8EA4B009DB558 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF368C26C8EA4B009DB558 /* HomeVC.m */; };
@@ -210,6 +211,8 @@
 		0765449D26F2098A00E1EF7D /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
 		0765449F26F2290400E1EF7D /* BaseTabar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabar.h; sourceTree = "<group>"; };
 		076544A026F2290400E1EF7D /* BaseTabar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabar.m; sourceTree = "<group>"; };
+		076544A326F2314900E1EF7D /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		076544A426F2314900E1EF7D /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
 		07AF365126C8C602009DB558 /* OCNormalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNormalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF366C26C8C604009DB558 /* OCNormalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNormalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF367026C8C604009DB558 /* OCNormalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNormalProjectTests.m; sourceTree = "<group>"; };
@@ -693,6 +696,8 @@
 		0765446A26F1EC8C00E1EF7D /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				076544A326F2314900E1EF7D /* Router.h */,
+				076544A426F2314900E1EF7D /* Router.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -1252,6 +1257,7 @@
 				07AF36A726CA8E94009DB558 /* NSArray+Description.m in Sources */,
 				0765444926F1CED900E1EF7D /* Node.m in Sources */,
 				0765445D26F1CED900E1EF7D /* SubSort.m in Sources */,
+				076544A526F2314900E1EF7D /* Router.m in Sources */,
 				0765447B26F1EE8900E1EF7D /* AlgorithmView.m in Sources */,
 				0765445E26F1CED900E1EF7D /* ReverseWords.m in Sources */,
 				0765444726F1CED900E1EF7D /* AbstractList.m in Sources */,
