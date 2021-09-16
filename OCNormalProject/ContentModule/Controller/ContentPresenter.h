@@ -8,16 +8,15 @@
 #import <Foundation/Foundation.h>
 #import "ContentView.h"
 #import "ContentVC.h"
+#import "ContentModuleDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ContentPresenter : NSObject
 
-@property(nonatomic, weak) ContentVC *contentVC;
+@property(nonatomic, weak) id<ContentModuleDelegate> delegate;
 
 @property(nonatomic, strong) ContentViewModel *contentVM;
-
-- (instancetype)initWithVC:(ContentVC *)vc;
 
 -(void)reloadView;
 

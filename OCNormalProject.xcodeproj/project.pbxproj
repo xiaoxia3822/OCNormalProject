@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073A441D26F36A5B00E28ED5 /* BaseNaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073A441C26F36A5B00E28ED5 /* BaseNaViewController.m */; };
 		076543B626F0FE2A00E1EF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C1843026EF817600110EAF /* Assets.xcassets */; };
 		076543D126F1CE4700E1EF7D /* LayoutView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543CF26F1CE4700E1EF7D /* LayoutView+Load.m */; };
 		076543D426F1CE5700E1EF7D /* LayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543D326F1CE5700E1EF7D /* LayoutView.m */; };
@@ -63,6 +64,9 @@
 		0765449E26F2098A00E1EF7D /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765449D26F2098A00E1EF7D /* RunLoopVC.m */; };
 		076544A126F2290400E1EF7D /* BaseTabar.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544A026F2290400E1EF7D /* BaseTabar.m */; };
 		076544A526F2314900E1EF7D /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544A426F2314900E1EF7D /* Router.m */; };
+		076544B126F3461000E1EF7D /* MemoryManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544B026F3461000E1EF7D /* MemoryManagerVC.m */; };
+		076544B626F3468700E1EF7D /* NetWorkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544B526F3468700E1EF7D /* NetWorkVC.m */; };
+		076544BB26F3470800E1EF7D /* CommonQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076544BA26F3470800E1EF7D /* CommonQuestionVC.m */; };
 		07AF367126C8C604009DB558 /* OCNormalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367026C8C604009DB558 /* OCNormalProjectTests.m */; };
 		07AF367C26C8C604009DB558 /* OCNormalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF367B26C8C604009DB558 /* OCNormalProjectUITests.m */; };
 		07AF368D26C8EA4B009DB558 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF368C26C8EA4B009DB558 /* HomeVC.m */; };
@@ -103,6 +107,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073A441B26F36A5B00E28ED5 /* BaseNaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNaViewController.h; sourceTree = "<group>"; };
+		073A441C26F36A5B00E28ED5 /* BaseNaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNaViewController.m; sourceTree = "<group>"; };
 		076543CF26F1CE4700E1EF7D /* LayoutView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LayoutView+Load.m"; sourceTree = "<group>"; };
 		076543D026F1CE4700E1EF7D /* LayoutView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LayoutView+Load.h"; sourceTree = "<group>"; };
 		076543D226F1CE5700E1EF7D /* LayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutView.h; sourceTree = "<group>"; };
@@ -213,6 +219,13 @@
 		076544A026F2290400E1EF7D /* BaseTabar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabar.m; sourceTree = "<group>"; };
 		076544A326F2314900E1EF7D /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		076544A426F2314900E1EF7D /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		076544AC26F2F24D00E1EF7D /* ContentModuleDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentModuleDelegate.h; sourceTree = "<group>"; };
+		076544AF26F3461000E1EF7D /* MemoryManagerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryManagerVC.h; sourceTree = "<group>"; };
+		076544B026F3461000E1EF7D /* MemoryManagerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryManagerVC.m; sourceTree = "<group>"; };
+		076544B426F3468700E1EF7D /* NetWorkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkVC.h; sourceTree = "<group>"; };
+		076544B526F3468700E1EF7D /* NetWorkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkVC.m; sourceTree = "<group>"; };
+		076544B926F3470800E1EF7D /* CommonQuestionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonQuestionVC.h; sourceTree = "<group>"; };
+		076544BA26F3470800E1EF7D /* CommonQuestionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonQuestionVC.m; sourceTree = "<group>"; };
 		07AF365126C8C602009DB558 /* OCNormalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCNormalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF366C26C8C604009DB558 /* OCNormalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCNormalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AF367026C8C604009DB558 /* OCNormalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCNormalProjectTests.m; sourceTree = "<group>"; };
@@ -300,6 +313,8 @@
 		076543B726F0FEDD00E1EF7D /* MemoryManagerModule */ = {
 			isa = PBXGroup;
 			children = (
+				076544AE26F345F200E1EF7D /* Controller */,
+				076544AD26F345F200E1EF7D /* Manager */,
 			);
 			path = MemoryManagerModule;
 			sourceTree = "<group>";
@@ -815,6 +830,64 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		076544A626F2EF9200E1EF7D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				076544AC26F2F24D00E1EF7D /* ContentModuleDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		076544AD26F345F200E1EF7D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		076544AE26F345F200E1EF7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				076544AF26F3461000E1EF7D /* MemoryManagerVC.h */,
+				076544B026F3461000E1EF7D /* MemoryManagerVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		076544B226F3466100E1EF7D /* NetWorkModule */ = {
+			isa = PBXGroup;
+			children = (
+				076544B326F3467200E1EF7D /* Controller */,
+			);
+			path = NetWorkModule;
+			sourceTree = "<group>";
+		};
+		076544B326F3467200E1EF7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				076544B426F3468700E1EF7D /* NetWorkVC.h */,
+				076544B526F3468700E1EF7D /* NetWorkVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		076544B726F346D400E1EF7D /* CommonQuestionModule */ = {
+			isa = PBXGroup;
+			children = (
+				076544B826F346F600E1EF7D /* Controller */,
+			);
+			path = CommonQuestionModule;
+			sourceTree = "<group>";
+		};
+		076544B826F346F600E1EF7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				076544B926F3470800E1EF7D /* CommonQuestionVC.h */,
+				076544BA26F3470800E1EF7D /* CommonQuestionVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		07AF364826C8C602009DB558 = {
 			isa = PBXGroup;
 			children = (
@@ -849,6 +922,8 @@
 				07C7FCCE26D2A0BF005D34F5 /* Main.storyboard */,
 				07AF36A926CA98E7009DB558 /* Category */,
 				07AF36A826CA98DA009DB558 /* Utils */,
+				076544B726F346D400E1EF7D /* CommonQuestionModule */,
+				076544B226F3466100E1EF7D /* NetWorkModule */,
 				0765448626F208BA00E1EF7D /* KVO_KVC_Module */,
 				0765448526F208A100E1EF7D /* NotificationModule */,
 				0765448426F2089900E1EF7D /* BlockModule */,
@@ -896,6 +971,8 @@
 				0765447D26F1EF2B00E1EF7D /* BaseTabBarVC.m */,
 				0765449F26F2290400E1EF7D /* BaseTabar.h */,
 				076544A026F2290400E1EF7D /* BaseTabar.m */,
+				073A441B26F36A5B00E28ED5 /* BaseNaViewController.h */,
+				073A441C26F36A5B00E28ED5 /* BaseNaViewController.m */,
 			);
 			path = AppModule;
 			sourceTree = "<group>";
@@ -932,6 +1009,7 @@
 		07C1841A26EF75EF00110EAF /* ContentModule */ = {
 			isa = PBXGroup;
 			children = (
+				076544A626F2EF9200E1EF7D /* Protocol */,
 				07C1842426EF7B0000110EAF /* View */,
 				07C1842326EF7AF800110EAF /* Model */,
 				07C1842226EF7AF000110EAF /* Controller */,
@@ -1212,6 +1290,7 @@
 				0765445C26F1CED900E1EF7D /* FlipedString.m in Sources */,
 				0765449B26F2097A00E1EF7D /* RunTimeVC.m in Sources */,
 				0765444E26F1CED900E1EF7D /* InsertionSort.m in Sources */,
+				073A441D26F36A5B00E28ED5 /* BaseNaViewController.m in Sources */,
 				07C1843D26EF85A600110EAF /* ContentViewModel.m in Sources */,
 				0765445526F1CED900E1EF7D /* Anagram.m in Sources */,
 				0765446D26F1ECB500E1EF7D /* BaseViewController.m in Sources */,
@@ -1220,6 +1299,7 @@
 				07AF36AC26CA990C009DB558 /* Times.m in Sources */,
 				0765446926F1EA5300E1EF7D /* ContentFlowLayout.m in Sources */,
 				0765448126F206B800E1EF7D /* MultithreadingVC.m in Sources */,
+				076544BB26F3470800E1EF7D /* CommonQuestionVC.m in Sources */,
 				0765444F26F1CED900E1EF7D /* QuickSort.m in Sources */,
 				076543D726F1CE5E00E1EF7D /* MineVC.m in Sources */,
 				0765444626F1CED900E1EF7D /* List.m in Sources */,
@@ -1228,6 +1308,7 @@
 				07C1842726EF7B2300110EAF /* ContentVC.m in Sources */,
 				07C1844026EF85F300110EAF /* ContentModel.m in Sources */,
 				0765444026F1CED900E1EF7D /* MaxProfit.m in Sources */,
+				076544B126F3461000E1EF7D /* MemoryManagerVC.m in Sources */,
 				0765444426F1CED900E1EF7D /* RemoveSubElements.m in Sources */,
 				0765444A26F1CED900E1EF7D /* LinkedList.m in Sources */,
 				0765445326F1CED900E1EF7D /* Subtree.m in Sources */,
@@ -1247,6 +1328,7 @@
 				076543D426F1CE5700E1EF7D /* LayoutView.m in Sources */,
 				0765445626F1CED900E1EF7D /* LengthOfLongestSubstring.m in Sources */,
 				0765444226F1CED900E1EF7D /* TreeNode.m in Sources */,
+				076544B626F3468700E1EF7D /* NetWorkVC.m in Sources */,
 				07C1843626EF817600110EAF /* AppDelegate.m in Sources */,
 				0765445F26F1CED900E1EF7D /* MinDistance.m in Sources */,
 				0765444326F1CED900E1EF7D /* PartitionLinkList.m in Sources */,

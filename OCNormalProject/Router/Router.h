@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Router : NSObject
 
++(void)pushViewControllerFrom:(id)fromVC to:(id)toVC animated:(BOOL)animated;
+
 @end
 
 NS_ASSUME_NONNULL_END

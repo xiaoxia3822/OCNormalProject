@@ -13,9 +13,15 @@
 
 @implementation BaseViewController
 
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+//    self.hidesBottomBarWhenPushed = NO;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+//    self.hidesBottomBarWhenPushed = YES;
     self.view.backgroundColor = UIColorFromRGB(0xFFFFFF);
 }
 

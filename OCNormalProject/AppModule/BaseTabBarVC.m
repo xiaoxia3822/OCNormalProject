@@ -6,6 +6,7 @@
 //
 
 #import "BaseTabBarVC.h"
+#import "BaseNaViewController.h"
 #import "HomeVC.h"
 #import "ContentVC.h"
 #import "MineVC.h"
@@ -19,15 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
+    
     UITabBar *tabBar = [UITabBar appearance];
     [tabBar setTintColor:UIColorFromRGB(0x0FB5BA)];
     
     // 首页
     HomeVC *homeVC = [[HomeVC alloc]init];
+//    homeVC.hidesBottomBarWhenPushed = YES;
     [self setViewController:homeVC title:@"首页" image:@"TB_home_normal" selectImage:@"TB_home_press"];
     // 功能
     ContentVC *contentVC = [[ContentVC alloc]init];
-    [self setViewController:contentVC title:@"功能" image:@"TB_function_normal" selectImage:@"TB_function_press"];
+//    contentVC.hidesBottomBarWhenPushed = YES;
+    [self setViewController:contentVC title:@"内容" image:@"TB_function_normal" selectImage:@"TB_function_press"];
     // 我的
     MineVC *mineVC = [[MineVC alloc]init];
     [self setViewController:mineVC title:@"我的" image:@"TB_mine_normal" selectImage:@"TB_mine_press"];
@@ -45,7 +50,7 @@
     viewController.tabBarItem.selectedImage = [[UIImage imageNamed:selectImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     viewController.tabBarItem.tag = index;
     index++;
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:viewController];
+    BaseNaViewController *nav = [[BaseNaViewController alloc] initWithRootViewController:viewController];
     [self addChildViewController:nav];
 }
 

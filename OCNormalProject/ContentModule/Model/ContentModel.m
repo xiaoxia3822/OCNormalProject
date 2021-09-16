@@ -13,11 +13,10 @@
 
 @implementation ContentModel
 
-- (instancetype)initWithIcon:(NSString *)icon title:(NSString *)title
-{
+- (instancetype)initWithCls:(NSString *)cls title:(NSString *)title {
     self = [super init];
     if (self) {
-        self.icon = icon;
+        self.cls = cls;
         self.title = title;
     }
     return self;

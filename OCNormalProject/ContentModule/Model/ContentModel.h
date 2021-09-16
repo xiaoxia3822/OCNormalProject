@@ -11,11 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ContentModel : NSObject
 
-@property(nonatomic, strong) NSString *icon;
+@property(nonatomic, strong) NSString *cls;
 
 @property(nonatomic, strong) NSString *title;
 
-- (instancetype)initWithIcon:(NSString *)icon title:(NSString *)title;
+- (instancetype)initWithCls:(NSString *)cls title:(NSString *)title;
 
 @end
 

@@ -20,6 +20,8 @@ typedef void(^MyBlock)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"Block";
+    
     void (^block1)(void) = ^{
         NSLog(@"------");
     };

@@ -7,18 +7,13 @@
 
 #import "BaseView.h"
 #import "ContentViewModel.h"
-
-@protocol ContentViewDelegate <NSObject>
-
--(void)didSelectItemAtIndexPath:(NSIndexPath *_Nullable)indexPath;
-
-@end
+#import "ContentModuleDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ContentView : BaseView
 
-@property(nonatomic, weak) id<ContentViewDelegate> delegate;
+@property(nonatomic, weak) id<ContentModuleDelegate> delegate;
 
 -(void)reloadView:(ContentViewModel *)viewModel;
 

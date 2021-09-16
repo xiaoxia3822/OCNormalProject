@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"通知";
 }
 
 -(void)test:(NSNotification *)notification {

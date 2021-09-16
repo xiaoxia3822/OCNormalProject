@@ -26,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"多线程";
 }
 
 -(void)queueOrderLog {

@@ -42,6 +42,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"算法";
+    
     _list1 = [[LinkedList alloc] init];
     _list2 = [[LinkedList alloc] init];
 }

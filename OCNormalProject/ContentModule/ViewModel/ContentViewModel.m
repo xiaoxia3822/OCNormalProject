@@ -20,7 +20,18 @@
 {
     self = [super init];
     if (self) {
-        self.dataArr = @[@{@"title":@"多线程"}, @{@"title":@"内存管理"}, @{@"title":@"KVO"}, @{@"title":@"Runtime"}, @{@"title":@"Runloop"}, @{@"title":@"通知"}, @{@"title":@"Block"}, @{@"title":@"网络"}, @{@"title":@"动画"}, @{@"title":@"常见题目"}, @{@"title":@"算法"}];
+        self.dataArr = @[@{@"title":@"多线程", @"cls":@"MultithreadingVC"},
+                         @{@"title":@"内存管理", @"cls":@"MemoryManagerVC"},
+                         @{@"title":@"KVO", @"cls":@"KVOVC"},
+                         @{@"title":@"KVC", @"cls":@"KVCVC"},
+                         @{@"title":@"Runtime", @"cls":@"RuntimeVC"},
+                         @{@"title":@"Runloop", @"cls":@"RunloopVC"},
+                         @{@"title":@"通知", @"cls":@"NotificationVC"},
+                         @{@"title":@"Block", @"cls":@"BlockVC"},
+                         @{@"title":@"网络", @"cls":@"NetWorkVC"},
+                         @{@"title":@"动画", @"cls":@"AnimationVC"},
+                         @{@"title":@"常见题目", @"cls":@"CommonQuestionVC"},
+                         @{@"title":@"算法", @"cls":@"AlgorithmVC"}];
         self.dataModels = [NSMutableArray array];
     }
     return self;
@@ -29,8 +40,8 @@
 -(void)dealDataModels {
     for (int i = 0; i < self.dataArr.count; i++) {
         NSDictionary *dic = self.dataArr[i];
-        ContentModel *mode = [[ContentModel alloc] initWithIcon:@"test" title:dic[@"title"]];
-        [self.dataModels addObject:mode];
+        ContentModel *model = [[ContentModel alloc] initWithCls:dic[@"cls"] title:dic[@"title"]];
+        [self.dataModels addObject:model];
     }
 }
 

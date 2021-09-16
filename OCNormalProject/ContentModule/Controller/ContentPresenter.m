@@ -8,20 +8,11 @@
 #import "ContentPresenter.h"
 #import "ContentViewModel.h"
 
-@interface ContentPresenter ()<ContentViewDelegate>
+@interface ContentPresenter ()
 
 @end
 
 @implementation ContentPresenter
-
-- (instancetype)initWithVC:(ContentVC *)vc
-{
-    self = [super init];
-    if (self) {
-        self.contentVC = vc;
-    }
-    return self;
-}
 
 -(ContentViewModel *)contentVM {
     static ContentViewModel *vm = nil;
@@ -34,10 +25,6 @@
 
 -(void)reloadView {
     [self.contentVM dealDataModels];
-}
-
-- (void)didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"第  %ld  个", (long)indexPath.row);
 }
 
 @end

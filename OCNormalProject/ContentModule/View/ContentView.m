@@ -9,7 +9,7 @@
 #import "ContentCell.h"
 #import "ContentFlowLayout.h"
 
-@interface ContentView () <UICollectionViewDelegate,UICollectionViewDataSource>
+@interface ContentView () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property(nonatomic, strong) UICollectionView *collectionView;
 
