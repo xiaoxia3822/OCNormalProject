@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		073A441D26F36A5B00E28ED5 /* BaseNaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073A441C26F36A5B00E28ED5 /* BaseNaViewController.m */; };
 		076543B626F0FE2A00E1EF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C1843026EF817600110EAF /* Assets.xcassets */; };
-		076543D126F1CE4700E1EF7D /* LayoutView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543CF26F1CE4700E1EF7D /* LayoutView+Load.m */; };
-		076543D426F1CE5700E1EF7D /* LayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543D326F1CE5700E1EF7D /* LayoutView.m */; };
 		076543D726F1CE5E00E1EF7D /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543D526F1CE5E00E1EF7D /* MineVC.m */; };
 		0765443D26F1CED900E1EF7D /* MaxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543DB26F1CED800E1EF7D /* MaxValue.m */; };
 		0765443E26F1CED900E1EF7D /* PalindromeLinklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 076543DE26F1CED800E1EF7D /* PalindromeLinklist.m */; };
@@ -84,6 +82,8 @@
 		07C1844326F040CE00110EAF /* ContentPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C1844226F040CD00110EAF /* ContentPresenter.m */; };
 		07C7FCCD26D29E11005D34F5 /* NSMutableArray+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7FCCC26D29E11005D34F5 /* NSMutableArray+Add.m */; };
 		07C7FCD026D2A0BF005D34F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C7FCCE26D2A0BF005D34F5 /* Main.storyboard */; };
+		07D1BBA026F43F7500A21C56 /* LayoutView+Load.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1BB9F26F43F7500A21C56 /* LayoutView+Load.m */; };
+		07D1BBA326F43F8000A21C56 /* LayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D1BBA126F43F8000A21C56 /* LayoutView.m */; };
 		637200441DED1E5042890EA7 /* Pods_OCNormalProject_OCNormalProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE047F8C6932C5DF57477E4C /* Pods_OCNormalProject_OCNormalProjectUITests.framework */; };
 		66D8982D65BE4EC046420F50 /* Pods_OCNormalProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DE116B58D573EC85F9C8AF /* Pods_OCNormalProjectTests.framework */; };
 		9BE5939E090E8775E7F7E101 /* Pods_OCNormalProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D36C7324574A693C93C97 /* Pods_OCNormalProject.framework */; };
@@ -109,10 +109,6 @@
 /* Begin PBXFileReference section */
 		073A441B26F36A5B00E28ED5 /* BaseNaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNaViewController.h; sourceTree = "<group>"; };
 		073A441C26F36A5B00E28ED5 /* BaseNaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNaViewController.m; sourceTree = "<group>"; };
-		076543CF26F1CE4700E1EF7D /* LayoutView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LayoutView+Load.m"; sourceTree = "<group>"; };
-		076543D026F1CE4700E1EF7D /* LayoutView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LayoutView+Load.h"; sourceTree = "<group>"; };
-		076543D226F1CE5700E1EF7D /* LayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutView.h; sourceTree = "<group>"; };
-		076543D326F1CE5700E1EF7D /* LayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutView.m; sourceTree = "<group>"; };
 		076543D526F1CE5E00E1EF7D /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		076543D626F1CE5E00E1EF7D /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
 		076543DA26F1CED800E1EF7D /* MaxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxValue.h; sourceTree = "<group>"; };
@@ -260,6 +256,10 @@
 		07C7FCCB26D29E11005D34F5 /* NSMutableArray+Add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Add.h"; sourceTree = "<group>"; };
 		07C7FCCC26D29E11005D34F5 /* NSMutableArray+Add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Add.m"; sourceTree = "<group>"; };
 		07C7FCCF26D2A0BF005D34F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D1BB9E26F43F7500A21C56 /* LayoutView+Load.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LayoutView+Load.h"; sourceTree = "<group>"; };
+		07D1BB9F26F43F7500A21C56 /* LayoutView+Load.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LayoutView+Load.m"; sourceTree = "<group>"; };
+		07D1BBA126F43F8000A21C56 /* LayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutView.m; sourceTree = "<group>"; };
+		07D1BBA226F43F8000A21C56 /* LayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutView.h; sourceTree = "<group>"; };
 		1192F1FD94255E1C29B58262 /* Pods-OCNormalProject-OCNormalProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNormalProject-OCNormalProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCNormalProject-OCNormalProjectUITests/Pods-OCNormalProject-OCNormalProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1BF12A63458EA4CFDD7DBC21 /* Pods-OCNormalProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCNormalProjectTests.release.xcconfig"; path = "Target Support Files/Pods-OCNormalProjectTests/Pods-OCNormalProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		690D36C7324574A693C93C97 /* Pods_OCNormalProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCNormalProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -356,8 +356,6 @@
 		076543C726F1CC3E00E1EF7D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				076543D226F1CE5700E1EF7D /* LayoutView.h */,
-				076543D326F1CE5700E1EF7D /* LayoutView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,8 +370,6 @@
 		076543C926F1CC5D00E1EF7D /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				076543D026F1CE4700E1EF7D /* LayoutView+Load.h */,
-				076543CF26F1CE4700E1EF7D /* LayoutView+Load.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -686,6 +682,7 @@
 		0765446126F1CF2000E1EF7D /* AnimationModule */ = {
 			isa = PBXGroup;
 			children = (
+				07D1BB9D26F43F5900A21C56 /* Category */,
 				0765446326F1CF4300E1EF7D /* View */,
 				0765446226F1CF3900E1EF7D /* Controller */,
 			);
@@ -704,6 +701,8 @@
 		0765446326F1CF4300E1EF7D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07D1BBA226F43F8000A21C56 /* LayoutView.h */,
+				07D1BBA126F43F8000A21C56 /* LayoutView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1060,6 +1059,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		07D1BB9D26F43F5900A21C56 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				07D1BB9E26F43F7500A21C56 /* LayoutView+Load.h */,
+				07D1BB9F26F43F7500A21C56 /* LayoutView+Load.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		9EF99AF4027FBD62C280A861 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1299,6 +1307,7 @@
 				07AF36AC26CA990C009DB558 /* Times.m in Sources */,
 				0765446926F1EA5300E1EF7D /* ContentFlowLayout.m in Sources */,
 				0765448126F206B800E1EF7D /* MultithreadingVC.m in Sources */,
+				07D1BBA326F43F8000A21C56 /* LayoutView.m in Sources */,
 				076544BB26F3470800E1EF7D /* CommonQuestionVC.m in Sources */,
 				0765444F26F1CED900E1EF7D /* QuickSort.m in Sources */,
 				076543D726F1CE5E00E1EF7D /* MineVC.m in Sources */,
@@ -1325,7 +1334,6 @@
 				0765445226F1CED900E1EF7D /* LowestCommonAncestor.m in Sources */,
 				0765445726F1CED900E1EF7D /* AddTwoNumbers.m in Sources */,
 				07C1842D26EF80FB00110EAF /* ContentCell.m in Sources */,
-				076543D426F1CE5700E1EF7D /* LayoutView.m in Sources */,
 				0765445626F1CED900E1EF7D /* LengthOfLongestSubstring.m in Sources */,
 				0765444226F1CED900E1EF7D /* TreeNode.m in Sources */,
 				076544B626F3468700E1EF7D /* NetWorkVC.m in Sources */,
@@ -1344,6 +1352,7 @@
 				0765445E26F1CED900E1EF7D /* ReverseWords.m in Sources */,
 				0765444726F1CED900E1EF7D /* AbstractList.m in Sources */,
 				0765444D26F1CED900E1EF7D /* BubbleSort.m in Sources */,
+				07D1BBA026F43F7500A21C56 /* LayoutView+Load.m in Sources */,
 				0765447326F1ED2500E1EF7D /* AnimationVC.m in Sources */,
 				0765444826F1CED900E1EF7D /* CircleLinkedList.m in Sources */,
 				07C7FCCD26D29E11005D34F5 /* NSMutableArray+Add.m in Sources */,
@@ -1354,7 +1363,6 @@
 				0765444B26F1CED900E1EF7D /* StackList.m in Sources */,
 				0765445926F1CED900E1EF7D /* Permute.m in Sources */,
 				0765445B26F1CED900E1EF7D /* ReverseLinklist.m in Sources */,
-				076543D126F1CE4700E1EF7D /* LayoutView+Load.m in Sources */,
 				0765446026F1CED900E1EF7D /* LetterCombinations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

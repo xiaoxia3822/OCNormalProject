@@ -6,8 +6,11 @@
 //
 
 #import "AnimationVC.h"
+#import "LayoutView.h"
 
 @interface AnimationVC ()
+
+@property(nonatomic, strong) LayoutView *layoutView;
 
 @end
 
@@ -18,6 +21,10 @@
     
     self.title = @"动画";
     
+    _layoutView = [[LayoutView alloc]init];
+    _layoutView.backgroundColor = [UIColor blueColor];
+    _layoutView.frame = CGRectMake(100, 100, 100, 100);
+    [self.view addSubview:_layoutView];
 }
 
 

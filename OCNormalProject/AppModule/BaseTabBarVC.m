@@ -20,8 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    
-    
     UITabBar *tabBar = [UITabBar appearance];
     [tabBar setTintColor:UIColorFromRGB(0x0FB5BA)];
     

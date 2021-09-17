@@ -8,6 +8,7 @@
 #import "Router.h"
 #import "BaseViewController.h"
 #import <objc/runtime.h>
+#import "NetWorkVC.h"
 
 @implementation Router
 
@@ -16,11 +17,15 @@
     NSLog(@"\n fromVC - %@ \n toVC - %@",[fromVC class], toVC);
     
     BaseViewController *form = (BaseViewController *)fromVC;
-    Class to = NSClassFromString((NSString *)toVC);
-    NSLog(@"\n--------------------\n");
+//    Class to = NSClassFromString((NSString *)toVC); //常规方法
+    Class to = objc_getClass([(NSString *)toVC UTF8String]); //RunTime方法
     
-    NSLog(@"\n fromVC - %@ \n toVC - %@",[fromVC class], [to class]);
-    [form.navigationController pushViewController:[[to alloc] init] animated:animated];
+    BaseViewController *to1 = [[to alloc] init];
+    NSLog(@"\n--------------------\n");
+    if ([form isKindOfClass:[BaseViewController class]] && [to1 isKindOfClass:[BaseViewController class]]) {
+        NSLog(@"\n fromVC - %@ \n toVC - %@",[fromVC class], [to1 class]);
+        [form.navigationController pushViewController:to1 animated:animated];
+    }
 }
 
 @end

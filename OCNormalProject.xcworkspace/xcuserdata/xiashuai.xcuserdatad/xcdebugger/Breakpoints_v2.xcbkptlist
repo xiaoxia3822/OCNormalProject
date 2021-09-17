@@ -5,31 +5,18 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.SymbolicBreakpoint">
-         <BreakpointContent
-            uuid = "05539515-7FF3-4988-8666-C402718C566E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            symbolName = ""
-            moduleName = "">
-            <Locations>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "445DCFF1-1EDB-4E08-A32A-F031BD3E5519"
+            uuid = "76AC6562-7BDB-4FAF-A5F3-6A1F6E09A714"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OCNormalProject/AppModule/BaseNaViewController.m"
+            filePath = "OCNormalProject/Router/Router.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-pushViewController:animated:"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "+pushViewControllerFrom:to:animated:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
