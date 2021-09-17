@@ -1,0 +1,20 @@
+# OS X
+.DS_Store
+
+build/
+xcuserdata/
+*.xccheckout
+profile
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcworkspace
+
+.bundle
+
+Carthage/Build
+
+Pods/
+Podfile.lock
+Package
