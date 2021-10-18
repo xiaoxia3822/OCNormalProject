@@ -6,6 +6,9 @@ target 'OCNormalProject' do
   use_frameworks!
 
   # Pods for OCNormalProject
+  
+  pod 'ReactiveObjC'
+  pod 'Masonry'
 
   target 'OCNormalProjectTests' do
     inherit! :search_paths

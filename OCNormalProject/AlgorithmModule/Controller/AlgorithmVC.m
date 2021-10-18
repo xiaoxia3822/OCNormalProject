@@ -28,6 +28,7 @@
 #import "MaxProfit.h"
 #import "LowestCommonAncestor.h"
 #import "RecoverTree.h"
+#import "TwoSum.h"
 
 @interface AlgorithmVC ()
 
@@ -46,6 +47,8 @@
     
     _list1 = [[LinkedList alloc] init];
     _list2 = [[LinkedList alloc] init];
+    
+    [self normalSort];
 }
 #pragma mark - 合并有序数组
 - (void)mergeArr {
@@ -176,7 +179,7 @@
 #pragma mark - 字符串轮转
 -(void)isFlipedString{
     FlipedString *str = [[FlipedString alloc] init];
-    NSLog(@"是不是轮转字符串 - %d", [str isFlipedString:@"weakStr" s2:@"kStrwea"]);
+    NSLog(@"是不是轮转字符串 - %@", ([str isFlipedString:@"weakstr" s2:@"kStrwea"] == 1 ? @"是的" : @"并不是"));
 }
 
 #pragma mark - 572_另一个数的子树
@@ -330,6 +333,12 @@
         i++;
     }
     NSLog(@"%@", dic);
+}
+
+#pragma mark - 字符出现次数
+-(void)twoSum{
+    TwoSum *twoSum = [[TwoSum alloc]init];
+    [twoSum twoSum];
 }
 
 @end

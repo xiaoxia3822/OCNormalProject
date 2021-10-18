@@ -7,17 +7,33 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "76AC6562-7BDB-4FAF-A5F3-6A1F6E09A714"
+            uuid = "049F987C-4701-452E-B81D-9D4E4F3AFFE1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OCNormalProject/Router/Router.m"
+            filePath = "OCNormalProject/RunTimeModule/&#x5b57;&#x5178;&#x8f6c;&#x6a21;&#x578b;/NSObject+Category.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "+pushViewControllerFrom:to:animated:"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "+rt_modelWithJson:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E8730BE-9650-4588-B1B7-A529EE951EAD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OCNormalProject/RunTimeModule/&#x6570;&#x7ec4;&#x4fdd;&#x6d3b;/NSMutableArray+KeepLive.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "NSMutableArray(KeepLive)"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

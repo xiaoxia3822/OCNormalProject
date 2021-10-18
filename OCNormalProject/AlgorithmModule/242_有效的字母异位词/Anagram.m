@@ -26,7 +26,7 @@
         i++;
     }
     
-    
+    int l = 0;
     for (NSInteger l = 0; l < t.length; l++) {
         char tempT = [t characterAtIndex:l];
         NSLog(@"%c", tempT);

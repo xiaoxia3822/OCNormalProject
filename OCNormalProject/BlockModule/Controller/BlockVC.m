@@ -22,21 +22,23 @@ typedef void(^MyBlock)(void);
     
     self.title = @"Block";
     
-    void (^block1)(void) = ^{
-        NSLog(@"------");
-    };
-
-    int age = 10;
-    void (^block2)(void) = ^{
-        NSLog(@"------ %d", age);
-    };
-
-    NSLog(@"------------------------");
-
-    NSLog(@"\n block1 -- %@ \n block2 -- %@ \n block3 -- %@ \n", [block1 class], [block2 class],
-          [^{
-            NSLog(@"%d", age);
-    } class]);
+    self.myBlock = nil;
+    
+//    void (^block1)(void) = ^{
+//        NSLog(@"------");
+//    };
+//
+//    int age = 10;
+//    void (^block2)(void) = ^{
+//        NSLog(@"------ %d", age);
+//    };
+//
+//    NSLog(@"------------------------");
+//
+//    NSLog(@"\n block1 -- %@ \n block2 -- %@ \n block3 -- %@ \n", [block1 class], [block2 class],
+//          [^{
+//            NSLog(@"%d", age);
+//    } class]);
 }
 
 @end

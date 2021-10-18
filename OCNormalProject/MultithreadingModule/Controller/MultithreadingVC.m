@@ -31,7 +31,7 @@
 
 -(void)queueOrderLog {
     dispatch_queue_t queue = dispatch_queue_create("test", DISPATCH_QUEUE_SERIAL);
-    dispatch_queue_t queue2 = dispatch_queue_create("test2", DISPATCH_QUEUE_SERIAL);
+//    dispatch_queue_t queue2 = dispatch_queue_create("test2", DISPATCH_QUEUE_SERIAL);
 
     NSLog(@"1");
 
@@ -149,7 +149,7 @@
 
 -(void)timeDisplay{
     [_caplay setPreferredFramesPerSecond:10];
-    _caplay = [CADisplayLink displayLinkWithTarget:self selector:@selector(test:)];
+    _caplay = [CADisplayLink displayLinkWithTarget:self selector:@selector(test)];
     
     [_caplay addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     

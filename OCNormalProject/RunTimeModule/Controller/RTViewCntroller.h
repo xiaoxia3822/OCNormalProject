@@ -1,15 +1,15 @@
 //
-//  RunTimeVC.h
+//  RTViewCntroller.h
 //  OCNormalProject
 //
-//  Created by 夏帅 on 2021/9/15.
+//  Created by 夏帅 on 2021/9/24.
 //
 
 #import "BaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RunTimeVC : BaseViewController
+@interface RTViewCntroller : BaseViewController
 
 @end
 

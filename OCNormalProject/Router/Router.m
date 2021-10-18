@@ -17,9 +17,9 @@
     NSLog(@"\n fromVC - %@ \n toVC - %@",[fromVC class], toVC);
     
     BaseViewController *form = (BaseViewController *)fromVC;
-//    Class to = NSClassFromString((NSString *)toVC); //常规方法
-    Class to = objc_getClass([(NSString *)toVC UTF8String]); //RunTime方法
-    
+    Class to = NSClassFromString((NSString *)toVC); //常规方法
+//    Class to = objc_getClass([(NSString *)toVC UTF8String]); //RunTime方法
+//    Class to = NSClassFromString(@"BaseViewController"); //常规方法
     BaseViewController *to1 = [[to alloc] init];
     NSLog(@"\n--------------------\n");
     if ([form isKindOfClass:[BaseViewController class]] && [to1 isKindOfClass:[BaseViewController class]]) {

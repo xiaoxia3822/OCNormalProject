@@ -1,13 +1,13 @@
 //
-//  RunLoopVC.m
+//  RLViewController.m
 //  OCNormalProject
 //
-//  Created by 夏帅 on 2021/9/15.
+//  Created by 夏帅 on 2021/9/24.
 //
 
-#import "RunLoopVC.h"
+#import "RLViewController.h"
 
-@interface RunLoopVC ()
+@interface RLViewController ()
 
 @property(nonatomic, assign) NSInteger age;
 
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation RunLoopVC
+@implementation RLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
